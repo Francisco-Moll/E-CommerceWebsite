@@ -1,0 +1,44 @@
+header,
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+
+header {
+    top: 0;
+
+}
+
+footer {
+    bottom: 0;
+    padding: 1rem;
+    justify-content: right;
+}
+
+#register {
+    max-width: 25rem;
+}
+
+#register label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.dialogs {
+    display: grid;
+    place-items: center;
+    height: 50vh;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
